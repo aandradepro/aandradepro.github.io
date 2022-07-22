@@ -1,2 +1,2 @@
 # github.io
-Sit in github
+Site in github
