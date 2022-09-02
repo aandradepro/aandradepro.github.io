@@ -1692,7 +1692,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * MAIN 
    */
 
-  main { margin-bottom: 60px; }
+  main { margin-bottom: 30px; }
 
   .main-content {
     position: relative;
@@ -1888,4 +1888,45 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+.footer {
+    background: var(--smoky-black);
+    color: #ffffff;
+/**    position: relative;
+    bottom: 0; */
+    margin-left: 150px
+    white-space: nowrap;
+    font-size: 0.7em;
+    box-shadow: none;
+/**    display: inline-block;*/
+}
+
+.footer__content{
+/**display: inline-block;*/
+    margin-left: 40px
+}
+
+.footer {
+    font-family: "Benton Sans", sans-serif;
+}
+
+.footer__content-bottom{
+display: inline-block;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
 }
