@@ -1763,17 +1763,29 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-banner-box { height: 230px; }
 
 }
+/* copied form main */
+footer {
+/*  margin: 15px 12px;
+  margin-bottom: 5px;
+  min-width: 259px;*/
+}
+
+/* footer { margin-bottom: 5px; }*/
+ footer {
+/*    max-width: 1200px;*/
+/*    margin-inline: auto;*/
+    display: flex;
+    justify-content: center;
+/*    align-items: stretch;*/
+/*    gap: 5px;*/
+  }
 
 .footer {
     background: var(--smoky-black);
-    color: #ffffff;
-/**    position: relative;
-    bottom: 0; */
-    margin-left: 150px
+    color: var(--light-gray-70);
     white-space: nowrap;
     font-size: 0.7em;
     box-shadow: none;
-/**    display: inline-block;*/
 }
 
 .footer__content{
