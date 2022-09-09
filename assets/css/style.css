@@ -1941,3 +1941,22 @@ a:active {
 
 }
 
+ .lang_sel {
+    max-width: 90%;
+    display: flex;
+    justify-content: right;
+    background: var(--smoky-black);
+    color: var(--light-gray-70);
+    white-space: nowrap;
+    font-size: 0.9em;
+    box-shadow: none;
+  }
+
+.lang_sel__content{
+/**display: inline-block;*/
+    margin-left: 40px
+}
+
+.lang_sel__content-top{
+display: inline-block;
+}
